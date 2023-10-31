@@ -1,0 +1,100 @@
+:root {
+    --bg-color: blue;
+    --text-color:  #757575;
+    --bg-color: #2F303A;
+    --tex-color:#2196F3;
+    --adress-color:#fff;
+    --phone-color: rgba(255, 255, 255, 0.60);
+    --bge-color: #F5F4FA;
+}
+
+body {
+    font-family: Ro;
+}
+
+.text-one {
+    color: var(--tex-color);
+    font-size: 16px;
+}
+
+.presentation-description {
+    color: var(--text-color);
+    text-decoration: none;
+}
+
+.header-link12 {
+    color: var(--tex-color);
+    text-decoration: none;
+    font-family: Roboto;
+    font-size: 16px;
+}
+
+.foot {
+    background-color: var(--bg-color);
+}
+
+.adres {
+    color: var(--adress-color);
+}
+
+.information {
+    background-color: var(--bg-color);
+    font-size: 44px;
+}
+
+.information-title {
+    color: var(--adress-color);
+}
+
+.employees-description {
+    color: var(--text-color);
+}
+
+.button {
+    border-radius: 4px;
+    background: #2196F3;
+    box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.15);
+    color: var(--adress-color);
+    font-size: 16px;
+}
+
+.mailto {
+    color: var(--phone-color);
+    font-size: 14px;
+}
+
+.tel {
+    color: var(--phone-color);
+}
+
+.navigation-text {
+    background-color: var(--bge-color);
+    font-size: 16px;
+}
+
+.info-text {
+    font-size: 14px;
+    color: black;
+}
+
+.info-description {
+    font-size: 14px;
+}
+
+.labor-title {
+    font-size: 36px;
+}
+
+.employees-text {
+    font-size: 16px;
+}
+
+.employees-title {
+    text-align: center;
+    font-size: 36px;
+}
+
+.presentation-text {
+    font-size: 18px;
+}
+
