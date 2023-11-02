@@ -1,3 +1,16 @@
+body {
+    font-family: Roboto;
+    font-size: 14px;
+    
+}
+
+ul {
+    list-style: none;
+  }
+  a {
+    text-decoration: none;
+  }
+
 :root {
     --bg-color: blue;
     --text-color:  #757575;
@@ -8,9 +21,7 @@
     --bge-color: #F5F4FA;
 }
 
-body {
-    font-family: Ro;
-}
+
 
 .text-one {
     color: var(--tex-color);
@@ -19,14 +30,21 @@ body {
 
 .presentation-description {
     color: var(--text-color);
-    text-decoration: none;
+    color: #757575;
+    font-family: Roboto;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 30px;
 }
 
 .header-link12 {
     color: var(--tex-color);
-    text-decoration: none;
     font-family: Roboto;
-    font-size: 16px;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
 }
 
 .foot {
@@ -35,6 +53,11 @@ body {
 
 .adres {
     color: var(--adress-color);
+    font-family: Roboto;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 24px;
 }
 
 .information {
@@ -48,6 +71,13 @@ body {
 
 .employees-description {
     color: var(--text-color);
+    color: #757575;
+    text-align: center;
+    font-family: Roboto;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
 }
 
 .button {
@@ -60,7 +90,11 @@ body {
 
 .mailto {
     color: var(--phone-color);
+    font-family: Roboto;
     font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 24px;
 }
 
 .tel {
@@ -74,19 +108,34 @@ body {
 
 .info-text {
     font-size: 14px;
+    font-style: normal;
+    font-weight: 700;
     color: black;
 }
 
 .info-description {
     font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 24px; 
 }
 
 .labor-title {
     font-size: 36px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    
 }
 
 .employees-text {
+    color: #212121;
+
+    text-align: center;
     font-size: 16px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
 }
 
 .employees-title {
@@ -96,5 +145,21 @@ body {
 
 .presentation-text {
     font-size: 18px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 36px;
 }
 
+.naviganion-button {
+    border-radius: 4px;
+    background: #F5F4FA;
+}
+
+.naviganion-button:hover {
+    background-color: #2196F3;
+}
+
+.navigation-list {
+   display: flex;
+   gap: 8px
+}
