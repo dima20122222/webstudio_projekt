@@ -153,6 +153,7 @@ ul {
 .naviganion-button {
     border-radius: 4px;
     background: #F5F4FA;
+    border: none;
 }
 
 .naviganion-button:hover {
@@ -162,4 +163,44 @@ ul {
 .navigation-list {
    display: flex;
    gap: 8px
+}
+
+#web {
+    color: #2196F3;
+    font-family: Raleway;
+    font-size: 26px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    letter-spacing: 0.78px;
+}
+
+#studio {
+    color: #212121;
+    font-family: Raleway;
+    font-size: 26px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    letter-spacing: 0.78px;
+}
+
+#studiow {
+    color: #FFF;
+    font-family: Raleway;
+    font-size: 26px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    letter-spacing: 0.78px;
+}
+
+#header-tel {
+    color: #757575;
+    font-family: Roboto;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    letter-spacing: 0.28px;
 }
