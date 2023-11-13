@@ -67,6 +67,7 @@ ul {
 
 .information-title {
     color: var(--adress-color);
+    align-items: center;
 }
 
 .employees-description {
