@@ -39,7 +39,7 @@ ul {
 }
 
 .header-link12 {
-    color: var(--text-color);
+    color: var(--bg-color);
     font-family: Roboto;
     font-size: 14px;
     font-style: normal;
@@ -204,6 +204,7 @@ ul {
 
 .naviganion-button:hover {
     background-color: #2196F3;
+    color: var(--adress-color);
 }
 
 .navigation-list {
