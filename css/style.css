@@ -29,22 +29,26 @@ ul {
 }
 
 .presentation-description {
-    color: var(--text-color);
     color: #757575;
     font-family: Roboto;
     font-size: 16px;
     font-style: normal;
     font-weight: 400;
-    line-height: 30px;
+    line-height: 30px; /* 187.5% */
+    letter-spacing: 0.48px;
 }
 
 .header-link12 {
-    color: var(--tex-color);
+    color: var(--text-color);
     font-family: Roboto;
     font-size: 14px;
     font-style: normal;
     font-weight: 500;
     line-height: normal;
+}
+
+.header-link12:hover {
+     color: #2196F3;
 }
 
 .foot {
@@ -67,11 +71,17 @@ ul {
 
 .information-title {
     color: var(--adress-color);
-    align-items: center;
+    text-align: center;
+    font-family: Roboto;
+    font-size: 44px;
+    font-style: normal;
+    font-weight: 900;
+    line-height: 60px; /* 136.364% */
+    letter-spacing: 2.64px;
+    text-transform: uppercase;
 }
 
 .employees-description {
-    color: var(--text-color);
     color: #757575;
     text-align: center;
     font-family: Roboto;
@@ -79,12 +89,20 @@ ul {
     font-style: normal;
     font-weight: 400;
     line-height: normal;
+    letter-spacing: 0.48px;
 }
 
 .button {
     border-radius: 4px;
     background: #2196F3;
     box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.15);
+    text-align: center;
+    font-family: Roboto;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 30px; /* 187.5% */
+    letter-spacing: 0.96px;
     color: var(--adress-color);
     font-size: 16px;
 }
@@ -108,53 +126,80 @@ ul {
 }
 
 .info-text {
+    color: #212121;
+    font-family: Roboto;
     font-size: 14px;
     font-style: normal;
     font-weight: 700;
-    color: black;
+    line-height: normal;
+    letter-spacing: 0.42px;
+    text-transform: uppercase;
 }
 
 .info-description {
+    color: #757575;
+    font-family: Roboto;
     font-size: 14px;
     font-style: normal;
     font-weight: 400;
-    line-height: 24px; 
+    line-height: 24px; /* 171.429% */
+    letter-spacing: 0.42px;
 }
 
 .labor-title {
+    color: #212121;
+    text-align: center;
+    font-family: Roboto;
     font-size: 36px;
     font-style: normal;
     font-weight: 700;
     line-height: normal;
-    
+    letter-spacing: 1.08px;
 }
 
 .employees-text {
     color: #212121;
-
     text-align: center;
+    font-family: Roboto;
     font-size: 16px;
     font-style: normal;
     font-weight: 500;
     line-height: normal;
+    letter-spacing: 0.48px;
 }
 
 .employees-title {
+    color: #212121;
     text-align: center;
+    font-family: Roboto;
     font-size: 36px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    letter-spacing: 1.08px;
 }
 
 .presentation-text {
+    color: #212121;
+    font-family: Roboto;
     font-size: 18px;
     font-style: normal;
     font-weight: 700;
-    line-height: 36px;
+    line-height: 36px; /* 200% */
+    letter-spacing: 1.08px;
 }
 
 .naviganion-button {
+    color: #212121;
+    text-align: center;
+    font-family: Roboto;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 26px; /* 162.5% */
+    letter-spacing: 0.48px;
     border-radius: 4px;
     background: #F5F4FA;
-    border: none;
 }
 
 .naviganion-button:hover {
@@ -205,3 +250,8 @@ ul {
     line-height: normal;
     letter-spacing: 0.28px;
 }
+
+#header-tel:hover {
+    color: #2196F3;
+}
+
