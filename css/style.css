@@ -30,9 +30,7 @@ ul {
 
 .presentation-description {
     color: #757575;
-    font-family: Roboto;
     font-size: 16px;
-    font-style: normal;
     font-weight: 400;
     line-height: 30px; /* 187.5% */
     letter-spacing: 0.48px;
@@ -40,9 +38,7 @@ ul {
 
 .header-link12 {
     color: var(--bg-color);
-    font-family: Roboto;
     font-size: 14px;
-    font-style: normal;
     font-weight: 500;
     line-height: normal;
 }
@@ -57,9 +53,7 @@ ul {
 
 .adres {
     color: var(--adress-color);
-    font-family: Roboto;
     font-size: 14px;
-    font-style: normal;
     font-weight: 400;
     line-height: 24px;
 }
@@ -72,9 +66,7 @@ ul {
 .information-title {
     color: var(--adress-color);
     text-align: center;
-    font-family: Roboto;
     font-size: 44px;
-    font-style: normal;
     font-weight: 900;
     line-height: 60px; /* 136.364% */
     letter-spacing: 2.64px;
@@ -84,9 +76,7 @@ ul {
 .employees-description {
     color: #757575;
     text-align: center;
-    font-family: Roboto;
     font-size: 16px;
-    font-style: normal;
     font-weight: 400;
     line-height: normal;
     letter-spacing: 0.48px;
@@ -97,9 +87,7 @@ ul {
     background: #2196F3;
     box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.15);
     text-align: center;
-    font-family: Roboto;
     font-size: 16px;
-    font-style: normal;
     font-weight: 700;
     line-height: 30px; /* 187.5% */
     letter-spacing: 0.96px;
@@ -109,9 +97,7 @@ ul {
 
 .mailto {
     color: var(--phone-color);
-    font-family: Roboto;
     font-size: 14px;
-    font-style: normal;
     font-weight: 400;
     line-height: 24px;
 }
@@ -127,9 +113,7 @@ ul {
 
 .info-text {
     color: #212121;
-    font-family: Roboto;
     font-size: 14px;
-    font-style: normal;
     font-weight: 700;
     line-height: normal;
     letter-spacing: 0.42px;
@@ -138,9 +122,7 @@ ul {
 
 .info-description {
     color: #757575;
-    font-family: Roboto;
     font-size: 14px;
-    font-style: normal;
     font-weight: 400;
     line-height: 24px; /* 171.429% */
     letter-spacing: 0.42px;
@@ -149,9 +131,7 @@ ul {
 .labor-title {
     color: #212121;
     text-align: center;
-    font-family: Roboto;
     font-size: 36px;
-    font-style: normal;
     font-weight: 700;
     line-height: normal;
     letter-spacing: 1.08px;
@@ -160,9 +140,8 @@ ul {
 .employees-text {
     color: #212121;
     text-align: center;
-    font-family: Roboto;
+
     font-size: 16px;
-    font-style: normal;
     font-weight: 500;
     line-height: normal;
     letter-spacing: 0.48px;
@@ -171,9 +150,8 @@ ul {
 .employees-title {
     color: #212121;
     text-align: center;
-    font-family: Roboto;
+
     font-size: 36px;
-    font-style: normal;
     font-weight: 700;
     line-height: normal;
     letter-spacing: 1.08px;
@@ -181,9 +159,7 @@ ul {
 
 .presentation-text {
     color: #212121;
-    font-family: Roboto;
     font-size: 18px;
-    font-style: normal;
     font-weight: 700;
     line-height: 36px; /* 200% */
     letter-spacing: 1.08px;
@@ -192,9 +168,8 @@ ul {
 .naviganion-button {
     color: #212121;
     text-align: center;
-    font-family: Roboto;
+
     font-size: 16px;
-    font-style: normal;
     font-weight: 500;
     line-height: 26px; /* 162.5% */
     letter-spacing: 0.48px;
@@ -216,7 +191,6 @@ ul {
     color: #2196F3;
     font-family: Raleway;
     font-size: 26px;
-    font-style: normal;
     font-weight: 700;
     line-height: normal;
     letter-spacing: 0.78px;
@@ -226,7 +200,6 @@ ul {
     color: #212121;
     font-family: Raleway;
     font-size: 26px;
-    font-style: normal;
     font-weight: 700;
     line-height: normal;
     letter-spacing: 0.78px;
@@ -236,7 +209,6 @@ ul {
     color: #FFF;
     font-family: Raleway;
     font-size: 26px;
-    font-style: normal;
     font-weight: 700;
     line-height: normal;
     letter-spacing: 0.78px;
@@ -244,9 +216,8 @@ ul {
 
 #header-tel {
     color: #757575;
-    font-family: Roboto;
+
     font-size: 14px;
-    font-style: normal;
     font-weight: 500;
     line-height: normal;
     letter-spacing: 0.28px;
