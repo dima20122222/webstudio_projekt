@@ -49,6 +49,7 @@ ul {
 
 .foot {
     background-color: var(--bg-color);
+    padding-top: 60px;
 }
 
 .adres {
@@ -62,6 +63,8 @@ ul {
 .information {
     background-color: var(--bg-color);
     font-size: 44px;
+    padding-top: 200px;
+    padding-bottom: 280px;
 }
 
 .information-title {
@@ -73,6 +76,17 @@ ul {
     letter-spacing: 2.64px;
     text-transform: uppercase;
 }
+
+.employees {
+    padding-top: 94px;
+    padding-right: 50px;
+}
+
+.info {
+    padding-top: 50px;
+    padding-bottom: 142px;
+}
+
 
 .employees-description {
     color: #757575;
@@ -186,6 +200,11 @@ ul {
 .navigation-list {
    display: flex;
    gap: 8px
+}
+
+.navigation {
+    padding-top: 100px;
+    padding-bottom: 56px;
 }
 
 #web {

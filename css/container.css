@@ -1,0 +1,10 @@
+.container {
+    width: 1200px;
+    margin-left: auto;
+    margin-right: auto;
+    /* або */
+    /* margin: 0 auto; */
+    outline: solid red;
+    padding-left: 3px;
+    padding-right: 3px;
+}
