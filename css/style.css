@@ -36,6 +36,11 @@ ul {
     letter-spacing: 0.48px;
 }
 
+.header-list {
+    padding-bottom: 32px;
+    padding-top: 32px;
+}
+
 .header-link {
     color: var(--bg-color);
     font-size: 14px;
@@ -67,6 +72,9 @@ ul {
     padding-bottom: 280px;
 }
 
+.information-box {
+    padding-top: 30px;
+}
 .information-title {
     color: var(--adress-color);
     text-align: center;
@@ -79,6 +87,7 @@ ul {
 
 .employees {
     padding-top: 94px;
+    padding-bottom: 94px;
 }
 
 header {
@@ -110,6 +119,7 @@ header {
     letter-spacing: 0.96px;
     color: var(--adress-color);
     font-size: 16px;
+    margin-left: 480px;
 }
 
 .mailto {
@@ -154,6 +164,10 @@ header {
     letter-spacing: 1.08px;
 }
 
+.lador-list {
+    padding-bottom: 94px;
+}
+
 .employees-text {
     color: #212121;
     text-align: center;
@@ -172,6 +186,10 @@ header {
     font-weight: 700;
     line-height: normal;
     letter-spacing: 1.08px;
+}
+
+.employees-list {
+    padding-bottom: 94px;
 }
 
 .presentation-text {
