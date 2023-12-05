@@ -36,9 +36,8 @@ ul {
     letter-spacing: 0.48px;
 }
 
-.header-list {
+.header-lists {
     padding-bottom: 32px;
-    padding-top: 32px;
 }
 
 .header-link {
@@ -70,11 +69,7 @@ ul {
     background-color: var(--bg-color);
     font-size: 44px;
     padding-top: 200px;
-    padding-bottom: 280px;
-}
-
-.information-box {
-    padding-top: 30px;
+    padding-bottom: 200px;
 }
 .information-title {
     color: var(--adress-color);
@@ -121,6 +116,7 @@ header {
     color: var(--adress-color);
     font-size: 16px;
     margin-left: 480px;
+    /* margin-bottom: 200px; */
 }
 
 .mailto {
