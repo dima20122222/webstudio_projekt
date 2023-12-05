@@ -94,6 +94,13 @@ header {
     padding-bottom: 142px;
 }
 
+.info-list {
+    margin-top: 94px;
+    margin-bottom: 94px;
+}
+
+
+
 
 .employees-description {
     color: #757575;
@@ -163,6 +170,12 @@ header {
 
 .lador-list {
     padding-bottom: 94px;
+    margin-top: 50px;
+}
+
+.labor-img {
+    margin-top: 50px;
+    padding-bottom: 94px;
 }
 
 .employees-text {
@@ -178,15 +191,15 @@ header {
 .employees-title {
     color: #212121;
     text-align: center;
-
     font-size: 36px;
     font-weight: 700;
     line-height: normal;
     letter-spacing: 1.08px;
+    padding-top: 94px;
 }
 
 .employees-list {
-    padding-bottom: 94px;
+    margin-bottom: 94px;
 }
 
 .presentation-text {
