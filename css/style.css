@@ -34,10 +34,13 @@ ul {
     font-weight: 400;
     line-height: 187.5%; 
     letter-spacing: 0.48px;
+
 }
 
-.header-lists {
-    padding-bottom: 32px;
+header {
+    /* margin-bottom: 32px; */
+    padding-bottom: 25px;
+    padding-top: 24px;
 }
 
 .header-link {
@@ -90,8 +93,8 @@ header {
    padding-top: 24px;
 }
 .info {
-    padding-top: 50px;
-    padding-bottom: 142px;
+    padding-top: 94px;
+    padding-bottom: 118px;
 }
 
 .info-list {
@@ -99,6 +102,10 @@ header {
     margin-bottom: 94px;
 }
 
+.lador {
+    padding-bottom: 94px;
+    padding-top: 0px;
+}
 
 
 
@@ -122,8 +129,6 @@ header {
     letter-spacing: 0.96px;
     color: var(--adress-color);
     font-size: 16px;
-    margin-left: 480px;
-    /* margin-bottom: 200px; */
 }
 
 .mailto {
@@ -141,6 +146,8 @@ header {
     background-color: var(--bge-color);
     font-size: 16px;
 }
+
+
 
 .info-text {
     color: #212121;
@@ -168,16 +175,7 @@ header {
     letter-spacing: 1.08px;
 }
 
-.lador-list {
-    padding-bottom: 94px;
-    margin-top: 50px;
-}
-
-.labor-img {
-    margin-top: 50px;
-    padding-bottom: 94px;
-}
-
+ 
 .employees-text {
     color: #212121;
     text-align: center;
@@ -195,8 +193,9 @@ header {
     font-weight: 700;
     line-height: normal;
     letter-spacing: 1.08px;
-    padding-top: 94px;
 }
+
+
 
 .employees-list {
     margin-bottom: 94px;
