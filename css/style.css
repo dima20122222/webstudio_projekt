@@ -92,6 +92,26 @@ header {
 header {
    padding-top: 24px;
 }
+
+.header-list {
+    display: flex;
+    gap: 50px;
+    padding-left: 193px;
+    /* padding-bottom: 32px; */
+}
+
+.header-lists {
+    display: flex;
+    gap: 50px;
+    padding-left: 718px;
+    /* padding-bottom: 32px; */
+    padding-top: 32px;
+}
+
+.header-links {
+    padding-top: 24px;
+    text-align: center;
+}
 .info {
     padding-top: 94px;
     padding-bottom: 118px;
