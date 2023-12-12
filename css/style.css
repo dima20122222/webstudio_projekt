@@ -93,18 +93,24 @@ header {
    padding-top: 24px;
 }
 
-.header-list {
+.header-box {
     display: flex;
+    align-items: center;
+    outline: red solid;
+    justify-content: space-between;
+    
+}
+.header-list {
     gap: 50px;
     padding-left: 193px;
-    /* padding-bottom: 32px; */
+    display: flex;
+    align-items: center;
+    outline: red solid;
+   
 }
 
 .header-lists {
-    display: flex;
     gap: 50px;
-    padding-left: 718px;
-    /* padding-bottom: 32px; */
     padding-top: 32px;
 }
 
