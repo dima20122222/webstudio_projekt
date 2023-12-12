@@ -96,27 +96,32 @@ header {
 .header-box {
     display: flex;
     align-items: center;
-    outline: red solid;
+    /* outline: red solid; */
     justify-content: space-between;
+    margin-right: 200px;
     
 }
 .header-list {
     gap: 50px;
-    padding-left: 193px;
+    
     display: flex;
     align-items: center;
-    outline: red solid;
+    /* outline: red solid; */
    
 }
 
 .header-lists {
     gap: 50px;
     padding-top: 32px;
+    display: flex;
+    padding-bottom: 32px;
 }
 
 .header-links {
     padding-top: 24px;
     text-align: center;
+    padding-bottom: 25px;
+    
 }
 .info {
     padding-top: 94px;
@@ -126,6 +131,8 @@ header {
 .info-list {
     margin-top: 94px;
     margin-bottom: 94px;
+    margin-right: 32px;
+    /* padding-left: 32px; */
 }
 
 .lador {
@@ -148,13 +155,14 @@ header {
     border-radius: 4px;
     background: #2196F3;
     box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.15);
-    text-align: center;
     font-size: 16px;
     font-weight: 700;
     line-height:  187.5%;
     letter-spacing: 0.96px;
     color: var(--adress-color);
     font-size: 16px;
+    margin-left: 500px;
+    
 }
 
 .mailto {
@@ -173,7 +181,11 @@ header {
     font-size: 16px;
 }
 
-
+.info-list {
+    display: flex;
+    gap: 30px;
+    justify-content: center;
+}
 
 .info-text {
     color: #212121;
@@ -199,6 +211,13 @@ header {
     font-weight: 700;
     line-height: normal;
     letter-spacing: 1.08px;
+    padding-bottom: 50px;
+}
+
+.labor-list {
+    display: flex;
+    gap: 30px;
+    
 }
 
  
@@ -210,6 +229,11 @@ header {
     font-weight: 500;
     line-height: normal;
     letter-spacing: 0.48px;
+    padding-top: 30px;
+}
+
+.employees-description {
+    padding-top: 10px;
 }
 
 .employees-title {
@@ -219,12 +243,31 @@ header {
     font-weight: 700;
     line-height: normal;
     letter-spacing: 1.08px;
+    padding-bottom: 50px;
+    
 }
 
+.employees-item {
+    background-color: #FFF;
+    width: 270px;
+    height: 368px;
+}
+
+.employees-img {
+    width: 270px;
+}
+
+
+.employees {
+    background: #F5F4FA;
+}
 
 
 .employees-list {
     margin-bottom: 94px;
+    display: flex;
+    gap: 30px;
+    
 }
 
 .presentation-text {
