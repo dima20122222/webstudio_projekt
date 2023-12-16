@@ -82,6 +82,12 @@ header {
     line-height: 136.364%;
     letter-spacing: 2.64px;
     text-transform: uppercase;
+    padding-bottom: 30;
+}
+.box-container {
+    display: flex;
+    flex-direction: column;
+    gap: 9px;
 }
 
 .employees {
@@ -97,13 +103,10 @@ header {
     display: flex;
     align-items: center;
     /* outline: red solid; */
-    justify-content: space-between;
-    margin-right: 200px;
-    
+    justify-content: space-between; 
 }
 .header-list {
     gap: 50px;
-    
     display: flex;
     align-items: center;
     /* outline: red solid; */
@@ -112,28 +115,18 @@ header {
 
 .header-lists {
     gap: 50px;
-    padding-top: 32px;
     display: flex;
-    padding-bottom: 32px;
 }
 
 .header-links {
-    padding-top: 24px;
     text-align: center;
-    padding-bottom: 25px;
-    
 }
 .info {
     padding-top: 94px;
     padding-bottom: 118px;
 }
 
-.info-list {
-    margin-top: 94px;
-    margin-bottom: 94px;
-    margin-right: 32px;
-    /* padding-left: 32px; */
-}
+
 
 .lador {
     padding-bottom: 94px;
@@ -194,6 +187,7 @@ header {
     line-height: normal;
     letter-spacing: 0.42px;
     text-transform: uppercase;
+    padding-bottom: 10px;
 }
 
 .info-description {
@@ -211,7 +205,7 @@ header {
     font-weight: 700;
     line-height: normal;
     letter-spacing: 1.08px;
-    padding-bottom: 50px;
+    margin-bottom: 50px;
 }
 
 .labor-list {
@@ -243,7 +237,7 @@ header {
     font-weight: 700;
     line-height: normal;
     letter-spacing: 1.08px;
-    padding-bottom: 50px;
+    margin-bottom: 50px;
     
 }
 
@@ -264,7 +258,6 @@ header {
 
 
 .employees-list {
-    margin-bottom: 94px;
     display: flex;
     gap: 30px;
     
