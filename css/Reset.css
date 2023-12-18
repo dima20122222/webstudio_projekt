@@ -1,4 +1,11 @@
-h1, h2, ul, li, h3, p, a, address, div {
+h1, h2, ul, li, h3, a, div {
     padding: 0;
     margin: 0;
+}
+
+img {
+    display: block;
+    width: 100%;
+    max-width: 100%;
+    height: auto;
 }

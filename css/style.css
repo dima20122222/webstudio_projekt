@@ -154,8 +154,6 @@ header {
     letter-spacing: 0.96px;
     color: var(--adress-color);
     font-size: 16px;
-    margin-left: 500px;
-    
 }
 
 .mailto {
@@ -269,6 +267,25 @@ header {
     font-weight: 700;
     line-height:  200%;
     letter-spacing: 1.08px;
+    padding-left: 24px;
+    padding-top: 20px;
+}
+
+.presentation-description {
+    padding-left: 24px;
+    
+}
+
+.presentation-list {
+    display: flex;
+    gap: 30px;
+    flex-wrap: wrap;
+    padding-bottom: 94px;
+}
+
+.presentation-item {
+    border: 1px solid #EEE;
+    width: 370px;
 }
 
 .naviganion-button {
@@ -290,7 +307,8 @@ header {
 
 .navigation-list {
    display: flex;
-   gap: 8px
+   gap: 8px;
+   padding-left: 300px;
 }
 
 .navigation {
