@@ -83,6 +83,9 @@ header {
     letter-spacing: 2.64px;
     text-transform: uppercase;
     padding-bottom: 30;
+    margin-left: 252px;
+    width: 696px;
+    margin-bottom: 30px;
 }
 .box-container {
     display: flex;
@@ -97,6 +100,7 @@ header {
 
 header {
    padding-top: 24px;
+   border: #ECECEC solid 2px;
 }
 
 .header-box {
@@ -155,6 +159,10 @@ header {
     color: var(--adress-color);
     font-size: 16px;
     margin-left: 492px;
+    padding-left: 32px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-right: 32px;
 }
 
 .mailto {
@@ -186,7 +194,7 @@ header {
     line-height: normal;
     letter-spacing: 0.42px;
     text-transform: uppercase;
-    padding-bottom: 10px;
+    padding-bottom: 12px;
 }
 
 .info-description {
@@ -282,6 +290,7 @@ header {
     gap: 30px;
     flex-wrap: wrap;
     padding-bottom: 94px;
+
 }
 
 .presentation-item {
@@ -292,7 +301,10 @@ header {
 .naviganion-button {
     color: #212121;
     text-align: center;
-
+    padding-top: 6px;
+    padding-bottom: 6px;
+    padding-left: 22px;
+    padding-right: 22px;
     font-size: 16px;
     font-weight: 500;
     line-height: 162.5%;
@@ -310,11 +322,14 @@ header {
    display: flex;
    gap: 8px;
    padding-left: 300px;
+   height: 38px;
+   flex-shrink: 0;
 }
+   
 
 .navigation {
-    padding-top: 100px;
-    padding-bottom: 56px;
+    padding-top: 94px;
+    padding-bottom: 50px;
 }
 
 #web {
