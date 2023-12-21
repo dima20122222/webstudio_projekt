@@ -83,7 +83,7 @@ header {
     letter-spacing: 2.64px;
     text-transform: uppercase;
     padding-bottom: 30;
-    margin-left: 252px;
+    margin: 0 auto;
     width: 696px;
     margin-bottom: 30px;
 }
@@ -127,7 +127,7 @@ header {
 }
 .info {
     padding-top: 94px;
-    padding-bottom: 118px;
+    padding-bottom: 94px;
 }
 
 
@@ -194,7 +194,7 @@ header {
     line-height: normal;
     letter-spacing: 0.42px;
     text-transform: uppercase;
-    padding-bottom: 12px;
+    margin-bottom: 12px;
 }
 
 .info-description {
