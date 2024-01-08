@@ -68,6 +68,8 @@ header {
     font-style: normal;
 }
 
+
+
 .information {
     background-color: var(--bg-color);
     font-size: 44px;
@@ -282,20 +284,24 @@ header {
 
 .presentation-description {
     padding-left: 24px;
-    
+    padding-bottom: 20px;
+}
+
+.presentation {
+    padding-bottom: 94px;
 }
 
 .presentation-list {
     display: flex;
     gap: 30px;
     flex-wrap: wrap;
-    padding-bottom: 94px;
-
+    justify-content: center;
 }
 
 .presentation-item {
     border: 1px solid #EEE;
-    width: 370px;
+    max-width: 370px;
+    flex-basis: calc(100% - (30px * 2) / 3);
 }
 
 .naviganion-button {
@@ -331,6 +337,8 @@ header {
     padding-top: 94px;
     padding-bottom: 50px;
 }
+
+
 
 #web {
     color: #2196F3;
