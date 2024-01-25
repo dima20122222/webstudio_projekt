@@ -183,13 +183,79 @@ header {
     font-size: 16px;
 }
 
+
+.info-item::before {
+    background-repeat: no-repeat;
+    content: '';
+    background-image: url(../img/antenna\ 1.png);
+    display: block;
+    width: 70px, 270px;
+    height: 70px;
+}
+
+.info-item2::before {
+    content: '';
+    width: 70px;
+    height: 70px;
+    background-image: url(../img/clock\ 1.png);
+    display: block;
+}
+
+.info-item3::before {
+    content: '';
+    width: 70px;
+    height: 70px;
+    display: block;
+    background-image: url(../img/diagram\ 1.png);
+}
+
+.info-item4::before {
+    content: '';
+    width: 70px;
+    height: 70px;
+    display: block;
+    background-image: url(../img/astronaut\ 1.png);
+}
+
 .info-list {
     display: flex;
     gap: 30px;
     justify-content: center;
 }
 
+
+
 .info-text {
+    color: #212121;
+    font-size: 14px;
+    font-weight: 700;
+    line-height: normal;
+    letter-spacing: 0.42px;
+    text-transform: uppercase;
+    margin-bottom: 12px;
+}
+
+.info-text2 {
+    color: #212121;
+    font-size: 14px;
+    font-weight: 700;
+    line-height: normal;
+    letter-spacing: 0.42px;
+    text-transform: uppercase;
+    margin-bottom: 12px;
+}
+
+.info-text3 {
+    color: #212121;
+    font-size: 14px;
+    font-weight: 700;
+    line-height: normal;
+    letter-spacing: 0.42px;
+    text-transform: uppercase;
+    margin-bottom: 12px;
+}
+
+.info-text4 {
     color: #212121;
     font-size: 14px;
     font-weight: 700;
