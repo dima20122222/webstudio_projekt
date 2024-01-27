@@ -192,6 +192,7 @@ header {
 } */
 
 .info-item::before {
+    background-color: #F5F4FA;
     background-repeat: no-repeat;
     content: '';
     background-image: url(../img/antenna\ 1.png);
@@ -203,6 +204,7 @@ header {
 }   
 
 .info-item2::before {
+    background-color: #F5F4FA;
     content: '';
     width: 270px;
     height: 120px;
@@ -214,6 +216,7 @@ header {
 }
 
 .info-item3::before {
+    background-color: #F5F4FA;
     content: '';
     width: 270px;
     height: 120px;
@@ -225,6 +228,7 @@ header {
 }
 
 .info-item4::before {
+    background-color: #F5F4FA;
     content: '';
     width: 270px;
     height: 120px;
